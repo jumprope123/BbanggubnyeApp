@@ -26,7 +26,7 @@ class MainActivity : BaseActivity() {
 
     override fun setValues() {
 
-        mBakings.add(Baking("얼그레이 큐브 파운드",3500,"빵굽녀 제작"))
+        mBakings.add(Baking("얼그레이 큐브 파운드",3500,"빵굽녀 제작","@drawable/bbanggubnye_01"))
         mBakings.add(Baking("커스터드크림마들렌",3500,"빵굽녀 제작"))
         mBakings.add(Baking("소세지빵",4000,"빵굽녀 제작"))
         mBakings.add(Baking("크렌베리 호두 스콘",3500,"빵굽녀 제작"))

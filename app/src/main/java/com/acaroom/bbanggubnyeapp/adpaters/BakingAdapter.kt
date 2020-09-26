@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.TextView
 import com.acaroom.bbanggubnyeapp.R
 import com.acaroom.bbanggubnyeapp.datas.Baking
 import kotlinx.android.synthetic.main.activity_main.view.*
@@ -23,7 +24,7 @@ class BakingAdapter(
         }
         val row = tempRow!!
 
-        val
+        val imagePic = row.findViewById<TextView>(R.id.bakingImage)
 
         return row
     }
